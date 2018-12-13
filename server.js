@@ -24,6 +24,6 @@ MongoClient.connect('mongodb://1mesaic:1mesaic@ds247027.mlab.com:47027/mstlist',
   if(err) return console.log(err);
   db = client.db('mstlist');
   app.listen(72, function(){
-  console.log('CibolaBurn, port 72');
+  console.log('Back-end operational, port 72');
   })
 })
